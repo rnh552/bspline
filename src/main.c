@@ -16,7 +16,7 @@ int main(void) {
         a[3] = 26;
         a[4] = 1;
         a[5] = 120;
-    }
+    }test
     else if (rank == 1) {
         a[0] = 0;
         a[1] = 27;
