@@ -181,32 +181,31 @@ int prepare(double* data, int size, int rank) {
     else if (place == 0) {
         data[0] = 0;
         data[1] = 0;
-        data[2] = 93;
-        data[3] = 26;
-        data[4] = 1;
+        data[2] = 37;
+        data[3] = 82;
+        data[4] = 21;
     }
     else if (place == 1) {
         data[0] = 0;
-        data[1] = 27;
-        data[2] = 66;
-        data[3] = 26;
+        data[1] = 8;
+        data[2] = 33;
+        data[3] = 18;
         data[4] = 1;
     }
     else if (place == size - 1) {
         data[0] = 1;
-        data[1] = 26;
-        data[2] = 93;
-        data[3] = 0;
+        data[1] = 18;
+        data[2] = 33;
+        data[3] = 8;
         data[4] = 0;
     }
     else if (place == size - 2) {
-        data[0] = 1;
-        data[1] = 26;
-        data[2] = 66;
-        data[3] = 27;
+        data[0] = 21;
+        data[1] = 82;
+        data[2] = 37;
+        data[3] = 0;
         data[4] = 0;
     }
-    data[5] = 120;
     return 0;
 }
 
